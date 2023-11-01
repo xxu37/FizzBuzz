@@ -11,6 +11,11 @@ namespace FizzBuzz
                 return "Fizz";
             }
 
+            if (givenNumber % 5 == 0)
+            {
+                return "Buzz";
+            }
+
             return givenNumber.ToString();
         }
     }
