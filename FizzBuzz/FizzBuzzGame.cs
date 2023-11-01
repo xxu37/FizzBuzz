@@ -6,6 +6,11 @@ namespace FizzBuzz
     {
         public static string CountOff(int givenNumber)
         {
+            if (givenNumber % 3 == 0)
+            {
+                return "Fizz";
+            }
+
             return givenNumber.ToString();
         }
     }
